@@ -1,0 +1,83 @@
+body {
+    background-color: #eddcd9;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-left: 8%;
+    color: #de5499;
+    font-family: 'Kalam', cursive;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 4%;
+    color: rgb(44, 44, 44);
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 4%;
+    color: rgb(44, 44, 44);;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2ebe9;
+    opacity: 70%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #de5499;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 25px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #f1bc7f;
+}
+
+.backgroundImage {
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -100;
+}
+
+.wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;      
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) } 
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
