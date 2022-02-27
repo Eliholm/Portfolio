@@ -10,8 +10,9 @@ body {
 h1 {
     font-size: 8rem;
     margin-left: 8%;
-    color: #de5499;
+    color: rgb(44, 44, 44);
     font-family: 'Kalam', cursive;
+    margin-bottom: 0%;
 }
 
 h2 {
@@ -47,7 +48,7 @@ ul {
   
   li a {
     display: block;
-    color: #de5499;
+    color: rgb(22, 22, 22);
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
