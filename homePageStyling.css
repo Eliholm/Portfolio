@@ -60,6 +60,7 @@ ul {
   
   li a:hover {
     background-color: #f1bc7f;
+    cursor: pointer;
 }
 
 .backgroundImage {
