@@ -16,5 +16,6 @@ const model = {
         starling: '<img src="images/starlingg.png" class="image"></img>',
         clicker: '<img src="images/klikker.png" class="image"></img>',
         pokemon: '<img src="images/pokemon.png" class="image"></img>',
+        norgesquiz: '<img src="images/norgesquiz.png" class="image"></img>',
     }
 }

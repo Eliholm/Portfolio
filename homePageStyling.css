@@ -89,3 +89,14 @@ ul {
      60% { transform: rotate( 0.0deg) }  
     100% { transform: rotate( 0.0deg) }
   }
+
+  .contact1 {
+    font-size: 4rem;
+    margin-top: 15vh;
+    margin-left: 10vw;
+  }
+
+  .contact2 {
+    font-size: 2rem;
+    margin-left: 10vw;
+  }
